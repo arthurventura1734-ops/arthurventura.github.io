@@ -99,11 +99,16 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-.projetos {
-    text-decoration: none;
-    color: #fc0;
+
+a.projetos,
+a.projetos:visited,
+a.projetos:active {
+    color: #fc0;            /* amarelo */
+    text-decoration: none;  /* sem sublinhado */
 }
+
 a.projetos:hover {
     color: #ffd700;          /* amarelo mais claro no hover */
     text-decoration: underline; /* opcional */
 }
+
