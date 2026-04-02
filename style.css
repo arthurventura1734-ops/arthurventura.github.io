@@ -103,3 +103,7 @@ footer a:hover {
     text-decoration: none;
     color: #fc0;
 }
+a.projetos:hover {
+    color: #ffd700;          /* amarelo mais claro no hover */
+    text-decoration: underline; /* opcional */
+}
