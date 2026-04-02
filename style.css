@@ -100,15 +100,19 @@ footer a:hover {
     text-decoration: underline;
 }
 
-a.projetos,
-a.projetos:visited,
-a.projetos:active {
+a.projetos:link,
+a.projetos:visited {
     color: #fc0;            /* amarelo */
     text-decoration: none;  /* sem sublinhado */
 }
 
 a.projetos:hover {
-    color: #ffd700;          /* amarelo mais claro no hover */
+    color: #ffd700;         /* amarelo mais claro no hover */
     text-decoration: underline; /* opcional */
+}
+
+a.projetos:active {
+    color: #fc0;            /* mantém amarelo no clique */
+    text-decoration: none;
 }
 
